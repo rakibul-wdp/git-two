@@ -1,1 +1,1 @@
-# Scientific Calculator with HTML, CSS, and JavaScript
+# Scientific Calculator with JavaScript
