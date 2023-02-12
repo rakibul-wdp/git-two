@@ -47,4 +47,42 @@ body {
   margin: 5px;
   border-radius: 4px;
   box-shadow: 5px 5px 8px #00000020, -5px -5px 8px #ffffff;
+  transition: 0.1s;
+}
+
+.btns .row button:hover {
+  box-shadow: inset 5px 5px 8px rgba(16, 16, 16, 0.1),
+    inset -5px -5px 8px #ffffff;
+  background: #ffffff;
+}
+
+#eval {
+  background: #33ccff;
+  color: #ffffff;
+  box-shadow: inset 5px 5px 8px #66d9ff, inset -5px -5px 8px #00ace6;
+  transition: 0.1s;
+}
+
+#eval:hover {
+  box-shadow: inset 5px 5px 8px #00ace6, inset -5px -5px 8px #00ace6;
+}
+
+#ac {
+  background: #33cc33;
+  color: #ffffff;
+  transition: 0.1s;
+}
+
+#ac:hover {
+  box-shadow: inset 5px 5px 8px #2eb82e, inset -5px -5px 8px #33cc33;
+}
+
+#ce {
+  background: #ff3399;
+  color: #ffffff;
+  transition: 0.1s;
+}
+
+#ce:hover {
+  box-shadow: inset 5px 5px 8px #e60073, inset -5px -5px 8px #ff3399;
 }
